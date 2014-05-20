@@ -1,29 +1,25 @@
 {
-  "private": true,
-  "name": "demo-typescript-node-minimal",
-  "version": "0.0.1",
-  "description": "Minimal demo showing TypeScript use in node.js",
+  "name": "orm_tests",
+  "version": "0.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tsc index.ts --module commonjs; node ./index"
+    "quickstart": "npm install && grunt"
   },
-  "keywords": [
-    "typescript",
-    "node"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/DefinitelyTyped/definitelytyped.github.io.git"
-  },
-  "author": {
-    "name": "Bart van der Schoor",
-    "url": "https://github.com/Bartvds"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "bluebird": "^1.2.4"
-  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "xregexp": "^2.0.0"
+    "events": "^1.0.1",
+    "express": "~4.2.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-shell": "^0.7.0",
+    "grunt-ts": "^1.11.2",
+    "orm": "^2.1.10",
+    "q": "~1.0.1",
+    "sequelize": "^1.7.5",
+    "sqlite3": "^2.2.3",
+    "typescript": "^1.0.1"
   }
 }
